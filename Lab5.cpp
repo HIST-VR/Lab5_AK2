@@ -8,8 +8,8 @@ int main (int argc, char *argv[]){
 
 	const struct option long_options[] = {
 		{"help",no_argument,NULL,'h'},
-		{"nohelp",optional_argument,NULL,'n'},
-		{"lol",required_argument,NULL,'l'},
+		{"optional",optional_argument,NULL,'o'},
+		{"required",required_argument,NULL,'r'},
 		{NULL,0,NULL,0}
 	};
 
